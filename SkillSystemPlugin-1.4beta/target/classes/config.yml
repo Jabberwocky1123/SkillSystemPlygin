@@ -1,0 +1,7 @@
+combat-xp:
+  default: 1.0
+  ender_dragon: 100.0
+  wither: 50.0
+  elder_guardian: 75.0
+  ravager: 5.0
+  peaceful: 0.1

@@ -1,0 +1,12 @@
+name: SSP-1.4beta
+version: 1.0
+main: com.example.skillSystemPlugin.SkillSystemPlugin
+api-version: 1.21
+commands:
+  skills:
+    description: Open the skills menu
+    usage: /skills
+    permissions:
+      skill.admin:
+        description: Access to the skill level setting
+        default: op
