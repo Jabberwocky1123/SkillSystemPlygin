@@ -1,0 +1,12 @@
+name: SkillSystem
+version: 1.0
+main: com.example.skillSystemPlugin.SkillSystemPlugin
+api-version: 1.21
+commands:
+  skills:
+    description: Открыть меню навыков
+    usage: /skills
+    permissions:
+      skill.admin:
+        description: Доступ к установке уровня навыков
+        default: op
